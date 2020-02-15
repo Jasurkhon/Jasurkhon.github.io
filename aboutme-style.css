@@ -2,6 +2,9 @@
 	background-color: rgb(255,149,0);
 }
 
+body {
+    font: 15px/1.5 arial, helvetica, sans-serif;
+}
 #name {
 	font-weight: bold;
 }
@@ -20,7 +23,11 @@ p, li {
 	font-family: Tahoma, sans-serif;
 	font-style: italic;
  }
-
+p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 0.5
+}
  a {
  	color: rgb(0,242,255);
  }
@@ -41,3 +48,5 @@ p, li {
 #sad {
 	height: 400px;
 }
+
+
